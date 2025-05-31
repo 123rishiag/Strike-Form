@@ -9,12 +9,12 @@ public class StrikeForm : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { 
-			"Core", 
-			"CoreUObject", 
-			"Engine", 
-			"InputCore", 
-			"EnhancedInput",
-            "GameplayTags"
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+            "GameplayTags",
+            "EnhancedInput"
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

@@ -1,4 +1,4 @@
-// by Rishabh Garg
+// Strike Form
 
 
 #include "GameModes/WarriorBaseGameMode.h"
