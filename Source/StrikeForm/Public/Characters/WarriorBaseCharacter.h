@@ -1,4 +1,4 @@
-// by Rishabh Garg
+// Strike Form
 
 #pragma once
 
@@ -12,7 +12,6 @@ class STRIKEFORM_API AWarriorBaseCharacter : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	AWarriorBaseCharacter();
 
 };
