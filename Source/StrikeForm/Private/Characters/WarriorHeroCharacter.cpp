@@ -60,8 +60,6 @@ void AWarriorHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 void AWarriorHeroCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	Debug::Print(TEXT("Working"));
 }
 
 void AWarriorHeroCharacter::Input_Move(const FInputActionValue& InputActionValue)
@@ -88,11 +86,11 @@ void AWarriorHeroCharacter::Input_Look(const FInputActionValue& InputActionValue
 
 	if (LookAxisVector.Y != 0.f)
 	{
-		AddControllerYawInput(LookAxisVector.Y);
+		AddControllerPitchInput(LookAxisVector.Y);
 	}
 
 	if (LookAxisVector.X != 0.f)
 	{
-		AddControllerPitchInput(LookAxisVector.X);
+		AddControllerYawInput(LookAxisVector.X);
 	}
 }
